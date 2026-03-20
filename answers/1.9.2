@@ -1,3 +1,3 @@
-docker stop beautiful_blackburn # Name of my container when I launch the command: `docker ps`
+docker stop beautiful_blackburn # Name of my container when I launch the command: docker ps
 docker rm beautiful_blackburn 
 docker run -d -p 8080:5000 --name back-container -e CURRENT_ENVIRONMENT=dev refael17/my-backend:latest
