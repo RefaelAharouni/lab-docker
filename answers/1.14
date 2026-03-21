@@ -1,0 +1,3 @@
+docker stop container-bis front-container
+docker rm container-bis front-container
+docker rmi refael17/my-backend:latest refael17/my-frontend:latest
