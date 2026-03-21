@@ -2,13 +2,12 @@ version: "3"
 services:
   backend: 
     image: refael17/my-backend:latest
-    container_name: back-compose
     ports:
-      - "8080:5000"
+      - "5000"
     environment:
       - CURRENT_ENVIRONMENT=dev
-    volumes:
-      - ./back/logs:/app/logs
+    #volumes:
+    #  - ./back/logs:/app/logs
 
   frontend:
     image: refael17/my-frontend:latest
