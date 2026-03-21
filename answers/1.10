@@ -1,1 +1,3 @@
 docker exec -it container-bis /bin/bash
+
+The OS used in the container is "Debian GNU/Linux 13 (trixie)" ("PRETTY_NAME" from the command above).

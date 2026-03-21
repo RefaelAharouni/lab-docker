@@ -1,1 +1,3 @@
 docker run -p 8080:5000 mon-backend
+
+The address is not responding because the container is isolated by default: even if the application listens on the 5000th port, it is close on my computer. Therefore, it cannot work.
