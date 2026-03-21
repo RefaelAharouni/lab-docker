@@ -1,0 +1,4 @@
+version: "3"
+services:
+  backend: 
+    image: refael17/my-backend:latest
